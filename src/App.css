@@ -1,0 +1,112 @@
+body{
+    opacity: 1;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 5%;
+}
+.preguntas{
+    width: 120vh;
+    margin: 0 auto;
+}
+
+.tabs{
+    width: 100vh;
+    margin: 0 auto;
+
+}
+
+.parrafo{
+    width: 90vh;
+    margin: 0 auto;
+   
+}
+.subtitulo{
+    width: 90vh;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 767px) {
+    .preguntas {
+       width: auto;
+    }
+}
+
+
+  
+@media only screen and (max-width: 767px) {
+    .main {
+        flex-direction: column;
+    }
+}
+
+.menu{
+    margin-top: 30px;
+    margin-left: 20px;
+  
+}
+@media only screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .main {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.slider{
+    height: 24rem
+}
+
+.modal{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    z-index: 9999;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .modal {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.modal2{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .modal2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 5px; /* Ancho de la barra de scroll */
+    height: 5px; /* Altura de la barra de scroll */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: orange; /* Color del carril de la barra de scroll */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #fff; /* Color del pulgar de la barra de scroll */
+  }
+  
