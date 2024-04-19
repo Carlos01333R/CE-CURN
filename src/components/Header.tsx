@@ -97,8 +97,8 @@ export default function Header() {
           </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://half-length-occurre.000webhostapp.com/curn/" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold leading-6 text-gray-900">
-            ACCEDER  <span aria-hidden="true">&rarr;</span>
+          <a href="https://half-length-occurre.000webhostapp.com/curn/php/usuario/consultorio.php" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold leading-6 text-gray-900">
+            Pedir una Consulta  <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>
@@ -108,7 +108,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-16 w-45" src="src\assets\logotxtteal.png" alt="" />
+              <img className="h-16 w-45" src="https://axis.curn.edu.co/images/uninunez/png/logotxtteal192.png" alt="" />
             </a>
             <button
               type="button"
@@ -151,10 +151,10 @@ export default function Header() {
               </div>
               <div className="py-6">
                 <a
-                  href="https://half-length-occurre.000webhostapp.com/curn/"
+                  href="https://half-length-occurre.000webhostapp.com/curn/php/usuario/consultorio.php"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  ACCEDER
+                  Perdir Consulta
                 </a>
               </div>
             </div>

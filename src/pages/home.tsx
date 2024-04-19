@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import { ImagenCorporativa } from '../components/ImagenCurn';
 import Navlist from '../components/Opciones'
 import "../App.css"
+import { Chat } from '../components/Chat';
 function Component() {
 
 
@@ -17,6 +18,7 @@ function Component() {
   <Navlist/>
 <BentoGridSecondDemo/>
   </section>
+  <Chat/>
  <FooterConsultorio/>
    </section>
   );
