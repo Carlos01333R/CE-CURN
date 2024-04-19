@@ -24,7 +24,7 @@ const Skeleton = () => (
 const items = [
   {
     imagen: "https://www.asesoriasempresa.es/wp-content/uploads/2019/06/asesoria-empresa.png",
-    title: "asesoria",
+    title: "Asesoria",
     description: "Servicios profesionales ofrecidos por expertos en un campo específico para brindar orientación, asistencia o consejo a individuos o empresas que requieren ayuda en áreas particulares.",
     ruta: "asesoria",
 
@@ -33,14 +33,14 @@ const items = [
     
   },
   {imagen: "https://img.freepik.com/vector-gratis/ilustracion-concepto-consultoria-estrategica_114360-9336.jpg",
-    title: "consultorias",
+    title: "Consultorias",
     description: " Servicios profesionales ofrecidos por especialistas en diversos campos para diagnosticar problemas.",
     ruta: "consultoria",
     className: "md:col-span-1",
    
   },
   {imagen: "https://fundepos.ac.cr/wp-content/uploads/2022/06/Grafico-Diagrama-circular-Proceso-5-elementos-Iconos-Corporativo-Multicolor-1024x675.png",
-    title: "gestión de proyectos",
+    title: "Gestión de proyectos",
     description: "La gestión de proyectos es la disciplina de planificar, organizar, dirigir y controlar los recursos para alcanzar objetivos específicos dentro de un plazo y presupuesto determinados. ",
     header: <Skeleton />,
     ruta: "gestion",
@@ -48,7 +48,7 @@ const items = [
     
   },
   {imagen: "https://gerente.com/co/wp-content/uploads/sites/16/2017/09/Consejos-para-montar-un-negocio-y-hacerse-emprendedor-en-Vitoria-Gasteiz-e1505140598267.jpeg",
-    title: "emprendimiento e innovación ",
+    title: "Emprendimiento e innovación ",
     description:
       "El emprendimiento es el proceso de identificar, crear y desarrollar oportunidades de negocio, mientras que la innovación implica la introducción de nuevas ideas, productos, servicios o procesos que generan valor y tienen un impacto positivo en la sociedad. ",
       ruta: "empredimiento",
