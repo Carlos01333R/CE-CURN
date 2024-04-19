@@ -147,6 +147,11 @@ export const ImagesSlider = ({
           />
         </AnimatePresence>
       )}
+      <div className={cn(/* ... */)}>
+     {/* ... */}
+     {loading && <div className="loading-indicator">Loading...</div>}
+     {/* ... */}
+   </div>
     </div>
   );
 };

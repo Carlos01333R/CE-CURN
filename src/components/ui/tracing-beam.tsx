@@ -4,7 +4,6 @@ import {
   motion,
   useTransform,
   useScroll,
-  useVelocity,
   useSpring,
 } from "framer-motion";
 import { cn } from "../../utils/cn";
@@ -19,7 +18,7 @@ export const TracingBeam = ({
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["left start", "left start"],
+    offset: ["start start", "end start"],
   });
 
   const contentRef = useRef<HTMLDivElement>(null);

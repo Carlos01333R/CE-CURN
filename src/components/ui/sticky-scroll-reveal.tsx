@@ -3,24 +3,19 @@ import React, { useRef } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
 import { cn } from "../../utils/cn";
-
-import "../../App.css"
 export const StickyScroll = ({
   content,
-  informacion,
   contentClassName,
 }: {
   content: {
     title: string;
     description: string;
-    content?: React.ReactNode | unknown;
-    informacion?: React.ReactNode | unknown
+    content?: React.ReactNode | any;
   }[];
   contentClassName?: string;
-  informacion?:string;
 }) => {
   const [activeCard, setActiveCard] = React.useState(0);
-  const ref = useRef<unknown>(null);
+  const ref = useRef<any>(null);
   const { scrollYProgress } = useScroll({
     // uncomment line 22 and comment line 23 if you DONT want the overflow container and want to have it change on the entire page scroll
     // target: ref
@@ -46,16 +41,15 @@ export const StickyScroll = ({
 
   const backgroundColors = [
     "var(--white)",
-    "var(--while)",
-    "var(--while)",
-    "var(--while)",
-    "var(--while)",
+    "var(--white)",
+    "var(--white)",
   ];
   const linearGradients = [
-   
+    "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
+    "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
+    "linear-gradient(to bottom right, var(--orange-500), var(--yellow-500))",
   ];
   return (
-    <>
     <motion.div
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
@@ -67,18 +61,17 @@ export const StickyScroll = ({
         <div className="max-w-2xl">
           {content.map((item, index) => (
             <div key={item.title + index} className="my-20">
-              <motion.p
+              <motion.h2
                 initial={{
                   opacity: 0,
                 }}
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                
                 className="text-2xl font-bold text-black"
               >
                 {item.title}
-              </motion.p>
+              </motion.h2>
               <motion.p
                 initial={{
                   opacity: 0,
@@ -90,9 +83,6 @@ export const StickyScroll = ({
               >
                 {item.description}
               </motion.p>
-              
-             
-
             </div>
           ))}
           <div className="h-40" />
@@ -108,13 +98,7 @@ export const StickyScroll = ({
         )}
       >
         {content[activeCard].content ?? null}
-        
       </motion.div>
-      
     </motion.div>
-  
-    
-    </>
   );
-
 };

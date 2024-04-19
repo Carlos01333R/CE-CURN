@@ -31,7 +31,7 @@ export const BentoGridItem = ({
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
-  ruta?: string | React.ReactNode;
+  ruta?: string;
   icon?: React.ReactNode;
   imagen?:string;
 }) => {
@@ -46,7 +46,7 @@ export const BentoGridItem = ({
       <div className="group-hover/bento:translate-x-2 transition duration-200">
         {icon}
        
-        <Link to={ruta} className="font-sans font-bold text-[#00897b]  mb-2 mt-2 underline">
+        <Link to={ruta || '/'} className="font-sans font-bold text-[#00897b]  mb-2 mt-2 underline">
         {title}
         </Link>
 
