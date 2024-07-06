@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CE-CURN/static/css/main.ff861014.css",
+    "main.js": "/CE-CURN/static/js/main.731da0ca.js",
+    "static/js/453.f458cf27.chunk.js": "/CE-CURN/static/js/453.f458cf27.chunk.js",
+    "index.html": "/CE-CURN/index.html",
+    "main.ff861014.css.map": "/CE-CURN/static/css/main.ff861014.css.map",
+    "main.731da0ca.js.map": "/CE-CURN/static/js/main.731da0ca.js.map",
+    "453.f458cf27.chunk.js.map": "/CE-CURN/static/js/453.f458cf27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff861014.css",
+    "static/js/main.731da0ca.js"
+  ]
+}
