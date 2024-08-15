@@ -35,7 +35,7 @@ export function Consultorias() {
              
             </div>
             <div className="mt-3 hover:underline text-lg text-[#00897b] py-1 mb-4">
-            <a href="https://half-length-occurre.000webhostapp.com/curn/" target="_blank" rel="noopener noreferrer" className="mt-2 ">{item.boton}</a>
+            <a href="http://localhost/curn/php/usuario/consultorio.php" target="_blank" rel="noopener noreferrer" className="mt-2 ">{item.boton}</a>
             </div>
             
           </div>

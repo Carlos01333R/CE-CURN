@@ -22,13 +22,17 @@ function Navlist() {
             Horarios de Atencion
           </Sidebar.Item>
           
-          <Sidebar.Item href="https://unicurn.sharepoint.com/sites/public/Documentos/public/normatividad/acuerdos/AC05-JUL21-2017-Reglamento%20Interno%20y%20C%c3%b3digo%20%c3%a9tica%20Centro%20de%20Conciliaci%c3%b3n.pdf.pdf?ga=1" icon={HiOutlineBookOpen} label="Curn" labelColor="dark">
+          <Sidebar.Item href="https://unicurn.sharepoint.com/sites/public/Documentos/public/normatividad/acuerdos/AC05-JUL21-2017-Reglamento%20Interno%20y%20C%c3%b3digo%20%c3%a9tica%20Centro%20de%20Conciliaci%c3%b3n.pdf.pdf?ga=1"
+          target="_blank" rel="noopener noreferrer" 
+          icon={HiOutlineBookOpen} label="Curn" labelColor="dark">
             Reglamento
           </Sidebar.Item>
           <Sidebar.Item onClick={() => setOpenModal2(true)} icon={HiOutlineClipboardCheck} label="3" className="cursor-pointer">
             Requisitos
           </Sidebar.Item>
-          <Sidebar.Item href="https://www.uninunez.edu.co/convenioscjctg.html" icon={HiOutlineDocumentReport}>
+          <Sidebar.Item href="https://www.uninunez.edu.co/convenioscjctg.html" 
+          target="_blank" rel="noopener noreferrer" 
+          icon={HiOutlineDocumentReport}>
             Convenios
           </Sidebar.Item>
           <Sidebar.Item onClick={() => setOpenModal3(true)} icon={HiOutlineEye} className="cursor-pointer">
